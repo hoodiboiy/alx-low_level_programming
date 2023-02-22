@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times table - Prints the 9 times table, starting with 0
+ * times_table - Prints the 9 times table, starting with 0
  * Return: empty output
  */
 
@@ -20,7 +20,7 @@ void times_table(void)
 	d = (z - u) / 10;
 	_putchar(42);
 	_putchar(32);
-	_putchar(d +'0');
+	_putchar(d + '0');
 	_putchar(u + '0');
 	}
 	else
